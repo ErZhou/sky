@@ -11,3 +11,17 @@ public static String reverse(String originStr) {
 			return originStr;
 		return reverse(originStr.substring(1)) + originStr.charAt(0);
 	}
+
+排序算法：
+冒泡排序
+如果0位置是水低，越往后越接近水面，压力越小，所以两两相比，后面的数应该大（压力下气泡大），这样比啊比，一趟之后水面上的数就是最大的了。
+for(i)..for(j)...if(j>j+1).....交换
+选择排序
+即最容易想到的，每个数字比一圈。
+for(i)...for(j=i+1)...if(i>j)...交换
+插入排序
+拿出后面的元素与前面排好的比较，看应该插在哪里。
+合并排序法
+快速排序法（最佳）
+原理和冒泡一样都是交换，在数据中找一个数作为虚拟的中间值。
+
